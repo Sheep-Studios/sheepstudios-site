@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/Sheep Studios branding/Sheep Studios Full.svg" alt="Logo" width="190" height="51">
+    <img src="images/Sheep Studios branding/Sheep Studios Full.svg" alt="Logo" width="380" height="102">
   </a>
 
   <h3 align="center">Sheep Studios website</h3>
