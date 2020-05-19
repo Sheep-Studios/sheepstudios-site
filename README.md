@@ -1,7 +1,7 @@
 <!-- Sheilds -->
 <p align="center">
     <a href="https://github.com/Sheep-Studios/sheepstudios-site/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
+        <img src="https://github.com/Sheep-Studios/sheepstudios-site/graphs/contributors" /></a>
     <a href="#backers" alt="Backers on Open Collective">
         <img src="https://img.shields.io/opencollective/backers/shields" /></a>
     <a href="#sponsors" alt="Sponsors on Open Collective">
