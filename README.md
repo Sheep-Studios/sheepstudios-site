@@ -12,13 +12,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/Sheep Studios branding/Sheep Studios full.svg" alt="Logo" width="80" height="80">
+    <img src="images/Sheep Studios branding/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Sheep Studios website</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    The official website for Sheep Studios
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
