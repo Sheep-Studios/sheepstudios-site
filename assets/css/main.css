@@ -3540,7 +3540,7 @@ input, select, textarea {
 			}
 
 				.tilesSmall article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(25% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -3803,7 +3803,7 @@ input, select, textarea {
 			}
 
 				.gallery article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(25% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
