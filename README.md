@@ -33,6 +33,6 @@ Distributed under the CC0-1.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - contact@sheepstudios.net
+Contact us: contact@sheepstudios.net
 
 Project Link: [https://github.com/Sheep-Studios/sheepstudios-site](https://github.com/your_username/repo_name)
