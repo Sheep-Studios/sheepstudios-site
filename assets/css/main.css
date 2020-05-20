@@ -3856,3 +3856,20 @@ input, select, textarea {
 		}
 
 
+
+
+
+
+/* boost iframe */
+.boostIframeHolder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 854px;
+    position:relative
+}
+
+.frame{
+    width: 100%;
+    height:100%;
+}
