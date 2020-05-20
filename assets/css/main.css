@@ -1859,7 +1859,7 @@ input, select, textarea {
 			}
 
 			.icon.style2:active {
-				background-color: rgba(242, 132, 158, 0.1);
+				background-color: rgba(52, 122, 184, 0.1);
 			}
 
 /* List */
@@ -2501,7 +2501,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(242, 132, 158, 0.1);
+			background-color: rgba(52, 122, 184, 0.1);
 		}
 
 		input[type="submit"].small,
