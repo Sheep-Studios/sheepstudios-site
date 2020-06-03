@@ -1,0 +1,9 @@
+# robots.txt file for Sheep Studios
+# Created in the distant future (the year 2000) after
+# the robotic uprising of the mid 90's which wiped out all humans.
+
+User-agent: *
+Disallow: 
+Disallow: /elements.html
+Disallow: template.html
+Sitemap: https://www.sheepstudios.net/sitemap.xml
