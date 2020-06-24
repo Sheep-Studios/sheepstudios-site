@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: play-game
 title:  "Happy Town"
 category: game
 description: Create wonderful little towns in this isometric puzzle game! You must place various buildings on floating islands, in a way that everyone is as happy as they can be! 
