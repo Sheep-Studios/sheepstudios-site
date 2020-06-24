@@ -1,20 +1,19 @@
 ---
 layout: play-game
 title:  "Boost"
-description: Create wonderful little towns in this isometric puzzle game! You must place various buildings on floating islands, in a way that everyone is as happy as they can be! 
-group: HTML5
+description: You must survive waves of enemies by using your weapon, which doubles as your sole mode of propulsion. After surviving each wave, you can choose from a variety of unique weapons and powerups.
 permalink: /games/Boost/play
 thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 ---
 
 
 <!-- header title -->
-<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Happy-Town/banner.png);background-size:cover"><div class="container">
+<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Boost/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
 			<br />
             <br />
-            <div class="floating-noabs"><img alt="Happy Town logo" src="/assets/pages/game-pages/Happy-Town/Happy-Town-logo.png" class="img-fluid position-absolute-"></div>
+            <div class="floating-noabs"><img alt="Boost logo" src="/assets/pages/game-pages/Boost/isolated-logo.png" class="img-fluid position-absolute-"></div>
 			</div>
 		</div>
 	</div>
