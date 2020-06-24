@@ -9,12 +9,12 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 ---
 
 <!-- header title -->
-<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Boost/banner.png);background-size:cover"><div class="container">
+<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Color-cross/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
 			<br />
             <br />
-            <div class="floating-noabs"><img alt="Boost logo" src="/assets/pages/game-pages/Boost/isolated-logo.png" class="img-fluid position-absolute-"></div>
+            <div class="floating-noabs"><img alt="Boost logo" src="/assets/pages/game-pages/Color-Cross/isolated-logo.png" class="img-fluid position-absolute-"></div>
 			</div>
 		</div>
 	</div>
