@@ -23,16 +23,19 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 
 <section>
 	<div class="container">
-		hey!
-		<!-- comments start -->
-			<script src="https://utteranc.es/client.js"
-					repo = "Sheep-Studios/sheepstudios-site"
-					issue-term = "pathname"
-					theme = ""github-light"
-					crossorigin = "anonymous"
-					async>
-			</script>
-		<!-- comments end -->
+		whey!
 		
 	</div>
+</section>
+
+<section>
+    <div id="comments">                          
+		<script src="https://utteranc.es/client.js"
+				repo = "Sheep-Studios/sheepstudios-site"
+				issue-term = "pathname"
+				theme = ""github-light"
+				crossorigin = "anonymous"
+				async>
+		</script>
+    </div>
 </section>
