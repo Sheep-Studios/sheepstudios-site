@@ -9,7 +9,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 ---
 
 <!-- header title -->
-<section class="page-title header-padding" style="background-image:url(assets/pages/games/banner.jpg);background-size:cover"><div class="container">
+<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Happy-Town/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
 			<h2 class="text-capitalize mb-2 text-lg text-white">Happy Town</h2>
