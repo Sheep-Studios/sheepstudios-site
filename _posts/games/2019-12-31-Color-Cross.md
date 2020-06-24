@@ -12,9 +12,9 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 <section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Color-Cross/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
-			<br />
-            <br />
-            <div class="floating-noabs"><img alt="Boost logo" src="/assets/pages/game-pages/Color-Cross/isolated-logo.png" class="img-fluid position-absolute-"></div>
+			<br>
+            <br>
+            <div class="floating-noabs"><img src="/assets/pages/game-pages/Color-Cross/isolated-logo.png" class="img-fluid position-absolute-" alt="Color Crosslogo" width="350"></div>
 			</div>
 		</div>
 	</div>
@@ -31,10 +31,10 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 						<div class="carousel-item">
 							<img class="img-fluid" alt="Color Cross online game screenshot" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-1.png">
 						</div>
-						<div class="carousel-item active">
+						<div class="carousel-item">
 							<img class="img-fluid" alt="Color Cross game" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-2.png">
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item active">
 							<img class="img-fluid" alt="Color Cross game online" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-3.png">
 						</div>
 						<div class="carousel-item">
@@ -58,7 +58,7 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 				
 			</div>
 			<div class="col-lg-8 text-center mt-5">
-				<p>You must survive waves of enemies by using your weapon, which doubles as your sole mode of propulsion. After surviving each wave, you can choose from a variety of unique weapons and powerups.</p>
+				<p>Hop your way to victory in Color Cross; a constantly changing retro platformer! The environment changes with every jump. So you better hop to it!</p>
 			</div>
 				</center></div>
 
@@ -73,5 +73,6 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
           <br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Color-Cross-installer.exe">Download for Windows</a><br><br>
 		  <a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Color-Cross-Linux.zip">Download for Linux</a><br><br>
 
-		  <br></div><br><br></section>
+		  <br></div><br><br><!-- Content end -->
+</div></center></div></section>
 <!-- Content end -->
