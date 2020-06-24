@@ -1,9 +1,11 @@
 ---
 layout: default
 title:  "Happy Town"
+category: game
 description: Create wonderful little towns in this isometric puzzle game! You must place various buildings on floating islands, in a way that everyone is as happy as they can be! 
 group: HTML5
 permalink: /games/Happy-Town/play
+thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 ---
 
 
