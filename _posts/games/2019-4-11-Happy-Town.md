@@ -60,7 +60,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 	<br><br><center><div class="row justify-content-center"><div class="col-lg-8">
             <span class="h5 text-color text-uppercase">Play online</span>
             
-          <br><a class="btn btn-outline-primary" href="https://armorgames.com/play/18631/happy-town" target="_blank">Play on Armorgames.com</a><br><br><a class="btn btn-outline-primary" href="http://www.shockwave.com/gamelanding/happy-town.jsp" target="_blank">Play on Shockwave.com</a><br><br><a href="/games/Happy-Town/play" class="btn btn-outline-primary">Play on sheepstudios.net</a><br><br><br></div><div class="col-lg-8">
+          <br><a class="btn btn-outline-primary" href="https://armorgames.com/play/18631/happy-town" target="_blank">Play on Armorgames.com</a><br><br><a class="btn btn-outline-primary" href="http://www.shockwave.com/gamelanding/happy-town.jsp" target="_blank">Play on Shockwave.com</a><br><br>
             <span class="h5 text-color text-uppercase">Download</span>
             
           <br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Installer.exe">Download for Windows</a><br><br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Linux.zip">Download for Linux</a></div></div></center><br><br></div></section>
