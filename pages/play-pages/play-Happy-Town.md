@@ -33,7 +33,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 					crossorigin="anonymous"
 					async>
 			</script>
-		<!-- comments end>
+		<!-- comments end -->
 		
 	</container>
 </section>
