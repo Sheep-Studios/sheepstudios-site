@@ -9,7 +9,7 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 ---
 
 <!-- header title -->
-<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Color-cross/banner.png);background-size:cover"><div class="container">
+<section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Color-Cross/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
 			<br />
