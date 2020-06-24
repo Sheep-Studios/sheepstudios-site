@@ -48,6 +48,16 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 					</a>
 				</div>
 			</div>
+
+			<div class="col-lg-12 mt-5">
+				<script src="https://utteranc.es/client.js"
+					repo="[ENTER REPO HERE]"
+					issue-term="pathname"
+					theme="github-light"
+					crossorigin="anonymous"
+					async>
+				</script>
+			</div>
 		</center>
 	</div>
 </section>
