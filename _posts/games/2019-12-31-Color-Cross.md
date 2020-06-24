@@ -29,19 +29,19 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 				<div class="carousel slide pointer-event" id="single-slide">
 					<div class="carousel-inner">
 						<div class="carousel-item">
-							<img class="img-fluid" alt="Boost online game screenshot" src="/assets/pages/game-pages/Boost/carousel-images/img-1.png">
+							<img class="img-fluid" alt="Color Cross online game screenshot" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-1.png">
 						</div>
 						<div class="carousel-item active">
-							<img class="img-fluid" alt="Boost game" src="/assets/pages/game-pages/Boost/carousel-images/img-2.png">
+							<img class="img-fluid" alt="Color Cross game" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-2.png">
 						</div>
 						<div class="carousel-item">
-							<img class="img-fluid" alt="Boost game online" src="/assets/pages/game-pages/Boost/carousel-images/img-3.png">
+							<img class="img-fluid" alt="Color Cross game online" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-3.png">
 						</div>
 						<div class="carousel-item">
-							<img class="img-fluid" alt="Boost game free" src="/assets/pages/game-pages/Boost/carousel-images/img-4.png">
+							<img class="img-fluid" alt="Color Cross game free" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-4.png">
 						</div>
 						<div class="carousel-item">
-							<img class="img-fluid" alt="Boost game Sheep Studios" src="/assets/pages/game-pages/Boost/carousel-images/img-5.png">
+							<img class="img-fluid" alt="Color Cross game Sheep Studios" src="/assets/pages/game-pages/Color-Cross/carousel-images/img-5.png">
 						</div>
 					</div>
 					 <div class="text-center mt-4">
