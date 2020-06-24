@@ -65,10 +65,10 @@ thumbnail: /assets/pages/game-pages/Color-Cross/thumbnail.png
 	<br><br><center><div class="row justify-content-center"><div class="col-lg-8">
             <span class="h5 text-color text-uppercase">Play online</span>
             
-          <br><a class="btn btn-outline-primary" href="http://armorgames.com/color-cross-game/18836" target="_blank">Play on armorgames.com</a><br><br>
-		  <br><a class="btn btn-outline-primary" href="https://www.addictinggames.com/action/color-cross" target="_blank">Play on addictinggames.com</a><br><br>
+          <br><a class="btn btn-outline-primary" href="http://armorgames.com/color-cross-game/18836" target="_blank">Play on armorgames.com</a><br>
+		  <br><a class="btn btn-outline-primary" href="https://www.addictinggames.com/action/color-cross" target="_blank">Play on addictinggames.com</a><br>
 		  <br><a class="btn btn-outline-primary" href="https://www.coolmathgames.com/0-color-cross" target="_blank">Play on coolmathgames.com</a><br><br>
-            <span class="h5 text-color text-uppercase">Download</span>
+            <br><span class="h5 text-color text-uppercase">Download</span>
             
           <br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Color-Cross-installer.exe">Download for Windows</a><br><br>
 		  <a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Color-Cross-Linux.zip">Download for Linux</a><br><br>
