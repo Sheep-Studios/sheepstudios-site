@@ -22,6 +22,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 </section>
 
 <!-- Content start -->
+<section>
 <div class="container">
 		<div class="row justify-content-center">
 			
@@ -30,16 +31,16 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 				<div class="carousel slide pointer-event" id="single-slide">
 					<div class="carousel-inner">
 						<div class="carousel-item">
-							<img src="/assets/pages/game-pages/Happy-Town/img-1.png" alt="Happy Town game" class="img-fluid">
+							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-1.png" alt="Happy Town game" class="img-fluid">
 						</div>
 						<div class="carousel-item active">
-							<img src="/assets/pages/game-pages/Happy-Town/img-2.png" alt="Happy Town the game" class="img-fluid">
+							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-2.png" alt="Happy Town the game" class="img-fluid">
 						</div>
 						<div class="carousel-item">
-							<img src="/assets/pages/game-pages/Happy-Town/img-3.png" alt="Happy Town game screenshot" class="img-fluid">
+							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-3.png" alt="Happy Town game screenshot" class="img-fluid">
 						</div>
 						<div class="carousel-item">
-							<img src="/assets/pages/game-pages/Happy-Town/img-4.png" alt="Happy Town the game screenshot" class="img-fluid">
+							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-4.png" alt="Happy Town the game screenshot" class="img-fluid">
 						</div>
 					</div>
 					 <div class="text-center mt-4">
@@ -64,4 +65,5 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
             <span class="h5 text-color text-uppercase">Download</span>
             
           <br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Installer.exe">Download for Windows</a><br><br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Linux.zip">Download for Linux</a></div></div>
+</section>
 <!-- Content end -->
