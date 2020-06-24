@@ -15,53 +15,53 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 		<div class="col-lg-6">
 			<br />
             <br />
-            <div class="floating-noabs"><img alt="" src="/assets/pages/game-pages/Happy-Town/Happy-Town-logo.png" class="img-fluid position-absolute-"></div>
+            <div class="floating-noabs"><img alt="Happy Town logo" src="/assets/pages/game-pages/Happy-Town/Happy-Town-logo.png" class="img-fluid position-absolute-"></div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!-- Contact start -->
-<section class="contact-form-wrap section">
-    <div class="container">
-        <!-- text -->
-        
+<!-- Content start -->
+<div class="container">
+		<div class="row justify-content-center">
+			
 
-        <!-- form -->
-        <div class="row justify-content-center">
-            <center><h3 class="mb-4 font-weight-bold">Contact Us</h3>Need to get in touch? Let's talk! Fill out the form below and we'll reply within the next buisness day.<p></p></center><div class="col-lg-10 mt-4">
-                <div class="contact-form">
-                    <form id="contact-form" accept-charset="UTF-8" form="" method="post" action="https://usebasin.com/f/d2e06735cbf3" target="_blank">
-                        <!-- form message -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                    Your message was sent successfully.
-                                </div>
-                            </div>
-                        </div>
+			<div class="col-lg-12 mt-5">
+				<div class="carousel slide pointer-event" id="single-slide">
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img src="/assets/pages/game-pages/Happy-Town/img-1.png" alt="Happy Town game" class="img-fluid">
+						</div>
+						<div class="carousel-item active">
+							<img src="/assets/pages/game-pages/Happy-Town/img-2.png" alt="Happy Town the game" class="img-fluid">
+						</div>
+						<div class="carousel-item">
+							<img src="/assets/pages/game-pages/Happy-Town/img-3.png" alt="Happy Town game screenshot" class="img-fluid">
+						</div>
+						<div class="carousel-item">
+							<img src="/assets/pages/game-pages/Happy-Town/img-4.png" alt="Happy Town the game screenshot" class="img-fluid">
+						</div>
+					</div>
+					 <div class="text-center mt-4">
+					 	<a class="control-prev" href="#single-slide" role="button" data-slide="prev">
+						    <span class="fa fa-long-arrow-alt-left" aria-hidden="true"></span>
+						  </a>
+						  <a class="control-next" href="#single-slide" role="button" data-slide="next">
+						    <span class="fa fa-long-arrow-alt-right" aria-hidden="true"></span>
+						  </a>
+					 </div>
+				</div>
+			</div>
+			<div class="col-lg-8 text-center mt-5">
+				<p>Create wonderful little towns in this isometric puzzle game! You must place various buildings on floating islands, in a way that everyone is as happy as they can be! Some buildings increase happiness, while others decrease happiness, but a set number and type of buildings are required for your town to be complete. It's up to you to figure out where they all go!</p>
+			</div>
+		</div>
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="name" id="name" placeholder="Name*">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="email" id="email" placeholder="Email*">
-                                </div>
-                            </div>
-                        </div>
-
-                        <textarea class="form-control mt-3 mb-4" name="message" id="message" cols="30" rows="6" placeholder="Message*"></textarea>
-                        
-                        <input type="submit" class="btn btn-primary" value="Submit Message">
-                    </form>
-                   </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- contact end -->
+	<br><br><div class="col-lg-8">
+            <span class="h5 text-color text-uppercase">Play online</span>
+            
+          <br><a class="btn btn-outline-primary" href="https://armorgames.com/play/18631/happy-town" target="_blank">Play on Armorgames.com</a><br><br><a class="btn btn-outline-primary" href="http://www.shockwave.com/gamelanding/happy-town.jsp" target="_blank">Play on Shockwave.com</a><br><br><a href="#" class="btn btn-outline-primary">Play on sheepstudios.net</a></div><br><br><div class="col-lg-8">
+            <span class="h5 text-color text-uppercase">Download</span>
+            
+          <br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Installer.exe">Download for Windows</a><br><br><a class="btn btn-outline-primary" href="https://github.com/Sheep-Studios/sheepstudios-site/releases/download/1.0.0/Happy-Town-Linux.zip">Download for Linux</a></div></div>
+<!-- Content end -->
