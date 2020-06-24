@@ -23,7 +23,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 
 <section>
 	<div class="container">
-		
+		hey!
 		<!-- comments start -->
 			<script src="https://utteranc.es/client.js"
 					repo="Sheep-Studios/sheepstudios-site"
