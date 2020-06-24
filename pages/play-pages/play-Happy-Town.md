@@ -22,7 +22,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 </section>
 
 <section>
-	<container>
+	<div class="container">
 		
 		<!-- comments start -->
 			<script src="https://utteranc.es/client.js"
@@ -35,5 +35,5 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 			</script>
 		<!-- comments end -->
 		
-	</container>
+	</div>
 </section>
