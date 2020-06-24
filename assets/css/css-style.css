@@ -2065,7 +2065,7 @@ a:focus {
     position: absolute
 }
 
-.floating-notabs{
+.floating-noabs{
     -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 4.5s;
     -webkit-animation-iteration-count: infinite;
