@@ -279,6 +279,3 @@ title: Home
 	</div>
 </section>
 <!-- news end -->
-
-<!-- call-to-action -->
-{% include call-to-action.html %}

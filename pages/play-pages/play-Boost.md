@@ -1,5 +1,5 @@
 ---
-layout: play-game
+layout: default
 title:  "Boost"
 description: You must survive waves of enemies by using your weapon, which doubles as your sole mode of propulsion. After surviving each wave, you can choose from a variety of unique weapons and powerups.
 permalink: /games/Boost/play
