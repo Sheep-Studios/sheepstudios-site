@@ -33,9 +33,9 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 						<div class="carousel-item">
 							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-1.png" alt="Happy Town game" class="img-fluid">
 						</div>
-						<div class="carousel-item active">
+						<center><div class="carousel-item active">
 							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-2.png" alt="Happy Town the game" class="img-fluid">
-						</div>
+	</div></center>
 						<div class="carousel-item">
 							<img src="/assets/pages/game-pages/Happy-Town/carousel-images/img-3.png" alt="Happy Town game screenshot" class="img-fluid">
 						</div>
