@@ -2063,7 +2063,6 @@ a:focus {
     margin-left: 30px;
     margin-top: -25%;
     position: absolute
-    -webkit-backface-visibility: hidden;
 }
 
 .floating-noabs{
@@ -2077,7 +2076,6 @@ a:focus {
     -moz-animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: -25%;
-    -webkit-backface-visibility: hidden;
 }
 
 .d1 {
