@@ -17,10 +17,10 @@ title: Home
 			</div>
 			
 			<div class="col-lg-5 col-md-7 banner-content-2">
-				<img alt="" src="assets/pages/home/iMac.png" class="img-fluid position-absolute- floating d1">
-				<img alt="" src="assets/pages/home/MacBook.png" class="img-fluid position-absolute- floating d2">
-				<img alt="" class="img-fluid position-absolute- floating d3" src="assets/pages/home/iPad.png">
-				<img alt="" class="img-fluid position-absolute- floating d4" src="assets/pages/home/iPhone.png">
+				<img alt="" src="/assets/pages/home/iMac.png" class="img-fluid position-absolute- floating d1">
+				<img alt="" src="/assets/pages/home/MacBook.png" class="img-fluid position-absolute- floating d2">
+				<img alt="" class="img-fluid position-absolute- floating d3" src="/assets/pages/home/iPad.png">
+				<img alt="" class="img-fluid position-absolute- floating d4" src="/assets/pages/home/iPhone.png">
 			</div>
 		</div>
 	</div>
