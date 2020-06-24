@@ -13,7 +13,9 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 <section class="page-title header-padding" style="background-image:url(/assets/pages/game-pages/Happy-Town/banner.png);background-size:cover"><div class="container">
 	<div class="row">
 		<div class="col-lg-6">
-			<div class="floating-noabs"><img alt="" src="/assets/pages/game-pages/Happy-Town/Happy-Town-logo.png" class="img-fluid position-absolute-"></div>
+			<br />
+            <br />
+            <div class="floating-noabs"><img alt="" src="/assets/pages/game-pages/Happy-Town/Happy-Town-logo.png" class="img-fluid position-absolute-"></div>
 			</div>
 		</div>
 	</div>
