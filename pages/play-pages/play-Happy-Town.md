@@ -23,15 +23,7 @@ thumbnail: /assets/pages/game-pages/Happy-Town/thumbnail.png
 
 <section>
 	<div class="container">
-		neight!
+		dweight!
 		
 	</div>
 </section>
-
-<section>
-    <div id="comments">                          
-		{% include comments.html %}
-    </div>
-</section>
-
-{% include call-to-action.html %}
