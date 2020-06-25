@@ -65,7 +65,7 @@ title: Home
 			<span class="h5 text-color text-uppercase">
 				Latest games
 			</span>
-			<h3 class="mb-4 mt-2">A collection of our newest, covering a wide range of design disciplines</h3>
+			<h3 class="mb-4 mt-2">A collection of our latest games, covering a wide range of design disciplines</h3>
 			</div>
 		</div>
 		
