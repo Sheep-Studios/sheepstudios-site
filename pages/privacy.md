@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Us
+title: Privacy
 permalink: /privacy
 ---
 
@@ -14,4 +14,7 @@ permalink: /privacy
 	</div>
 </section>
 
-404 not found
+
+<section>
+	*wow*
+</section>
