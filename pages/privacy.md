@@ -31,4 +31,5 @@ permalink: /privacy
 		<!-- posts -->
 		
 	</div>
-</section> 
+</section>
+yupper
