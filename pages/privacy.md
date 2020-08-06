@@ -21,7 +21,6 @@ permalink: /privacy
 			<div class="col-lg-10">
 			
 	<div id="placeholders">
-<h1>Privacy Policy of <span class="highlight preview_company_name">Sheep Studios</span></h1>
 <p>Sheep Studios operates many services, which all collect different types of data. This page is used to inform our users regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our services.</p>
 
 <p>If you choose to use any of our services, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
