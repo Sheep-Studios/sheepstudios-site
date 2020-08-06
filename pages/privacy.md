@@ -16,5 +16,7 @@ permalink: /privacy
 
 
 <section>
-	*wow*
+	<div class="row">
+		Hello, **world**
+	</div>
 </section>
