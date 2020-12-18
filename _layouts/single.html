@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Head -->
+        {% include head.html %}
+    </head>
+
+    <body>
+        <!-- Header -->
+        {% include navigation.html %}
+
+        <main id="main">
+            <!-- Breadcrumbs section start -->
+            <section class="breadcrumbs">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>{{ page.title }}</h2>
+
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li>{{ page.title }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <!-- Breadcrumbs section end -->
+
+            <!-- Portfolio section start -->
+            <section class="portfolio-details">
+                <div class="container">
+                    <div class="portfolio-details-container">
+                    <div class="portfolio-description">
+                        <h2>{{ page.title }}</h2>
+                        
+                        {{ content }}
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio section end -->
+        </main>
+        <!-- End #main -->
+
+        <!-- Footer -->
+        {% include footer.html %}
+
+        <!-- Scripts -->
+        {% include scripts.html %}
+    </body>
+</html>

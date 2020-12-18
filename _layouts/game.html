@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Head -->
+        {% include head.html %}
+    </head>
+
+    <body>
+        <!-- Header -->
+        {% include navigation.html %}
+
+        <main id="main">
+            <!-- Breadcrumbs section start -->
+            <section class="breadcrumbs">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>{{ page.title }}</h2>
+
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li>{{ page.title }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <!-- Breadcrumbs section end -->
+
+            <!-- Portfolio section start -->
+            <section class="portfolio-details">
+                <div class="container">
+                    <div class="portfolio-details-container">
+                        <!-- Images -->
+                        <div class="owl-carousel portfolio-details-carousel">
+                            <img src="assets/img/portfolio/{{ page.img1 }}" class="img-fluid" alt="{{ page.title }} screenshot 1" />
+                            <img src="assets/img/portfolio/{{ page.img2 }}" class="img-fluid" alt="{{ page.title }} screenshot 2" />
+                            <img src="assets/img/portfolio/{{ page.img3 }}" class="img-fluid" alt="{{ page.title }} screenshot 3" />
+                        </div>
+
+                        <!-- Project info -->
+                        <div class="portfolio-info">
+                            <h3>Project information</h3>
+                            <ul>
+                                <li><strong>Genre</strong>: {{ page.gnere }}</li>
+                                {{% if page.clients.size > 0 %}}<li><strong>Clients</strong>: {{ page.clients | sort | join: ", " }}</li>{{ endif }}
+                                <li><strong>Project date</strong>: {{ page.date | date: "%-d %B, %Y"}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-description">
+                        <h2>{{ page.title }}</h2>
+                        <p>
+                            {{ page.description }}
+                        </p>
+                        <br /><br />
+                        <h2>Play</h2>
+                        <p>
+                            You can play {{ page.title }} on the following websites:
+                        </p>
+                        
+                        {{ content }}
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio section end -->
+
+            <!-- Contact section start -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>Color Cross + Your Site?</h2>
+                        <p>
+                            Want to get {{ page.title }} on your site? We offer affordable prices for high-quality games.
+                        </p>
+                    </div>
+
+                    <div class="row mt-5 justify-content-center" data-aos="fade-up">
+                        <div class="col-lg-10">
+                            <form action="https://usebasin.com/f/d2e06735cbf3" method="post" role="form" class="php-email-form">
+                                <!-- Top row -->
+                                <div class="form-row">
+                                    <!-- Name -->
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validate"></div>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="col-md-6 form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validate"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Website -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="website" id="website" placeholder="Website" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validate"></div>
+                                </div>
+
+                                <!-- Offer -->
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Your offer.."></textarea>
+                                    <div class="validate"></div>
+                                </div>
+
+                                <!-- Send -->
+                                <div class="mb-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Section -->
+
+            {% include our-games.html %}
+        </main>
+        <!-- End #main -->
+
+        <!-- Footer -->
+        {% include footer.html %}
+
+        <!-- Scripts -->
+        {% include scripts.html %}
+    </body>
+</html>

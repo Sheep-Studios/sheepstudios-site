@@ -1,82 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- head -->
-	<head>
-		<!-- characterset -->
-		<meta charset="utf-8">
+    <head>
+        <!-- Head -->
+        {% include head.html %}
+    </head>
 
-		<!-- page title -->
-		<title>{{ page.title }} - Sheep Studios</title>
-		
-		<!-- mobile responsive meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		
-		<!-- ** Plugins Needed for the Project ** --><!-- Bootstrap -->
-		<link rel="stylesheet" href="/assets/css/bootstrap-bootstrap.min.css">
-		<link rel="stylesheet" href="/assets/css/css-themify-icons.css">
-		<link rel="stylesheet" href="/assets/css/css-all.css">
-		<link rel="stylesheet" href="/assets/css/aos-aos.css">
-		<link rel="stylesheet" href="/assets/css/magnific-popup-magnific-popup.css">
-		<link rel="stylesheet" href="/assets/css/css-jquery.fancybox.min.css">
-		<link rel="stylesheet" href="/assets/css/slick-slick.css">
-		
-		<!-- Main Stylesheet -->
-		<link href="/assets/css/css-style.css" rel="stylesheet">
+    <body>
+        <!-- Header -->
+        {% include navigation.html %}
 
-        <!-- favicons -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76.png"
-        <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180.png">
-
-        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-
-        <link rel="manifest" href="/assets/images/favicons/manifest.json">
-
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/assets/images/favicons/ms-icon-144x144.png">
-
-        <meta name="theme-color" content="#ffffff">
-	</head>
-	
-	<!-- body -->
-	<body data-spy="scroll" data-target="#ftco-navbar-spy" data-offset="0" class="">
-		<!-- navigation -->
-		{% include navigation.html %}
-
-		<!-- content -->
+        <!-- content -->
 		{{ content }}
 
-		<!-- call-to-action -->
-		{% include call-to-action.html %}
+        <!-- Footer -->
+        {% include footer.html %}
 
-
-		<!-- footer -->
-		{% include footer.html %}
-
-		<!-- scripts -->
-		<script src="/assets/js/jQuery-jquery.min.js"></script>
-		<script src="/assets/js/umd-popper.min.js"></script>
-		<script src="/assets/js/bootstrap-bootstrap.min.js"></script>
-		<script src="/assets/js/aos-aos.js"></script>
-		<script src="/assets/js/slick-slick.min.js"></script>
-		<script src="/assets/js/counto-apear.js"></script>
-		<script src="/assets/js/counto-counTo.js"></script>
-		<script src="/assets/js/shuffle-shuffle.min.js"></script>
-		<script src="/assets/js/magnific-popup-jquery.magnific-popup.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh74UN6BKgq9U5fMNGhdZOSpmM_QnZqs"></script>
-		<script src="/assets/js/google-map-gmap.js"></script>
-		<script src="/assets/js/js-jquery.fancybox.min.js"></script>
-		<script src="/assets/js/js-simple-jekyll-search.min.js">
-		</script><script src="/assets/js/js-script.js"></script>
-	</body>
+        <!-- Scripts -->
+        {% include scripts.html %}
+    </body>
 </html>

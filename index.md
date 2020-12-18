@@ -3,208 +3,112 @@ layout: default
 title: Home
 ---
 
-<!-- Slider Start -->
-<section class="banner-3">
-	<div class="container">
-		<div class="col-lg-6 align-self-end">
-			</div><div class="row align-items-center">
-			<div class="col-lg-6 col-md-7">
-				<div class="banner-content-2">
-					<span class="h5 text-uppercase text-yello">We are Sheep Studios</span>
-					<h2 class="text-white mt-2">An indie game<br>development company</h2>
-					<p class="my-4">For three years, we've been making games for the world to enjoy.</p>
-				</div>
-			</div>
-			
-			<div class="col-lg-5 col-md-7 banner-content-2">
-				<img alt="" src="/assets/pages/home/iMac.png" class="img-fluid position-absolute- floating d1">
-				<img alt="" src="/assets/pages/home/MacBook.png" class="img-fluid position-absolute- floating d2">
-				<img alt="" class="img-fluid position-absolute- floating d3" src="/assets/pages/home/iPad.png">
-				<img alt="" class="img-fluid position-absolute- floating d4" src="/assets/pages/home/iPhone.png">
-			</div>
-		</div>
-	</div>
+<!-- Fullscreen hero section start -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+        <h1>We are Sheep Studios</h1>
+
+        <h2>For three years, we've been making games for the world to enjoy.</h2>
+
+        <a href="#portfolio" class="btn-get-started scrollto">Our Games</a>
+    </div>
 </section>
-<!-- Slider End -->
+<!-- End hero section -->
 
-<!-- Service Start -->
-<section class="service-2"><div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6">
-				<div class="service-item mb-4 mb-lg-0 text-center px-4">
-					<i class="ti-game text-color icon-md"></i>
-					<h4 class="my-4">Game Development</h4>
-					<p>We make cross-platform HTML5 and mobile games.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6  border-left border-right">
-				<div class="service-item mb-4 mb-lg-0 px-4 text-center">
-					<i class="ti-announcement text-color icon-md"></i>
-					<h4 class="my-4">Publishing</h4>
-					<p>We can publish your mobile &amp; HTML5 games at a competitive rate.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="service-item mb-4 mb-lg-0 text-center px-4">
-					<i class="ti-package text-color icon-md"></i>
-					<h4 class="my-4">Licensing</h4>
-					<p>Have a website? We license our games to websites at fair prices.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Service End -->
+<!-- Services section start -->
+<main id="main">
+    <section id="services" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-7 aos-init aos-animate" data-aos="fade-right">
+                    <img src="assets/img/about-img.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                    <h3 data-aos="fade-up" class="aos-init aos-animate">Services</h3>
+                    <p data-aos="fade-up" class="aos-init aos-animate">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
 
-<!-- Portfolio Start -->
-<section class="pt200 section portfolio-2">
-	<div class="container">
-		<!-- text -->
-		<div class="row">
-			<div class="col-lg-10">
-			<span class="h5 text-color text-uppercase">
-				Latest games
-			</span>
-			<h3 class="mb-4 mt-2">A collection of our latest games, covering a wide range of design disciplines</h3>
-			</div>
-		</div>
-		
-		<!-- categories -->
-		<div class="d-flex flex-wrap align-items-center justify-content-between mb-5">
-			<div class="btn-group btn-group-toggle " data-toggle="buttons">
+                    <!-- Licensing -->
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up">
+                        <i class="bx bx-receipt"></i>
+                        <h4>Licensing</h4>
+                        <p>Get high-quality games for your site at an affordable price.</p>
+                    </div>
 
-				<label class="btn border-0 active">
-					<input type="radio" name="shuffle-filter" value="all" checked>All Games
-				</label>
+                    <!-- Publishing -->
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-network-chart"></i>
+                        <h4>Publishing</h4>
+                        <p>We offer fair rates to publish your HTML5 game</p>
+                    </div>
 
-				<label class="btn border-0 ">
-					<input type="radio" name="shuffle-filter" value="HTML5">HTML5
-				</label>
-				<label class="btn border-0">
-					<input type="radio" name="shuffle-filter" value="Mobile">Mobile
-				</label>
-			</div>
-		</div>
+                    <!-- Game development -->
+                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-network-chart"></i>
+                        <h4>Game development</h4>
+                        <p>We make cross-platform HTML5 and mobile games.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
 
-		<!-- posts -->
-		<div class="row shuffle-wrapper portfolio-gallery">
-			{% for post in site.posts %}
-				{% if post.categories contains 'game' %}
-					<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["{{ post.group }}"]'>
-						<div class="position-relative inner-box">
-							<div class="image position-relative ">
-								<img src="{{ post.thumbnail }}" alt="portfolio-image" class="img-fluid w-100 d-block" href="{{ post.permalink }}">
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a class="overlay-content text-center" href="{{ post.permalink }}">
-											<h5 class="mb-0 text-white">{{ post.title }}</h5>
-											<p>{{ post.description }}</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-	</div>
-</section>
-<!-- Portfolio End -->
+    {% include our-games.html %}
+            
+    <!-- Contact section start -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <p>
+                    Need to get in touch? Let's talk! Fill out the form below and we'll reply ASAP.
+                </p>
+            </div>
 
-<!-- Stats start -->
-<section class="section-sm counter-section position-relative bg-blue"><img src="images/bg-cta-bg.png" alt="" class="overlay-shape"><div class="container">
-		<div class="row">
-			<!-- "games created" section -->
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-content d-flex mb-5 mb-lg-0">
-					<i class="ti-briefcase mr-4"></i>
-					<div>
-						<h2 class="mb-0"><span class="counter">5</span></h2>
-						<p class="text-capitalize mb-0">Games created</p>
-					</div>
-				</div>
-			</div>
+            <div class="row mt-5 justify-content-center" data-aos="fade-up">
+                <div class="col-lg-10">
+                    <form action="https://usebasin.com/f/d2e06735cbf3" method="post" role="form" class="php-email-form">
+                        <!-- Top row -->
+                        <div class="form-row">
+                            <!-- Name -->
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validate"></div>
+                            </div>
 
-			<!-- "players" section -->
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-content d-flex mb-5 mb-lg-0">
-					<i class="ti-eye mr-4"></i>
-					<div>
-						<h2 class="mb-0"><span class="counter">1M+</span></h2>
-						<p class="text-capitalize mb-0">Yearly players</p>
-					</div>
-				</div>
-			</div>
+                            <!-- Email -->
+                            <div class="col-md-6 form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validate"></div>
+                            </div>
+                        </div>
 
-			<!-- "average game rating" section -->
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-content d-flex mb-5 mb-lg-0">
-					<i class="ti-heart mr-4"></i>
-					<div class="mb-0">
-						<h2><span class="counter">87</span></h2>
-						<p class="text-capitalize mb-0">Average game rating</p>
-					</div>
-				</div>
-			</div>
-			
-			<!-- "awards won" section -->
-			<div class="col-lg-3 col-md-6">
-				<div class="counter-content d-flex mb-5 mb-lg-0">
-					<i class="ti-cup mr-4"></i>
-					<div class="mb-0">
-						<h2><span class="counter">50</span>+</h2>
-						<p class="text-capitalize mb-0">Awards won</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Stats end -->
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validate"></div>
+                        </div>
 
-<!-- news section -->
-<section class="section latest-blog position-relative overflow-hidden">
-	<div class="container">
-		<!-- text -->
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<span class="h5 text-color text-uppercase">latest news</span>
-				<h3 class="mb-5 mt-2">Stay updated with Sheep Studios.</h3>
-			</div>
-		</div>
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validate"></div>
+                        </div>
 
-		<!-- posts -->
-		<div class="row justify-content-center">
-           {% for post in site.posts limit:3 %}
-				{% if post.categories contains 'news' %}
-					<!-- post -->
-					<div class="col-lg-4 col-md-6  mb-4 mb-lg-0">
-               
-						<!-- thumbnail -->
-						<div class="blog-img position-relative">
-							<a href="{{ post.permalink }}">
-								<img class="img-fluid w-100" src="{{ post.thumbnail }}" alt="{{ post.title }}">
-							</a>
-						</div>
-                
-						<!-- title -->
-						<a href="{{ post.permalink }}">
-							<h4 class="mt-4 mb-2">{{ post.title }}</h4>
-						</a>
-
-						<!-- meta -->
-						<div class="post-meta text-uppercase mb-3">
-							<span class="text-color">by {{ post.author }}</span>
-							<span class="text-color">/ {{ post.date | date_to_string }}</span>
-						</div>
-
-						<!-- description -->
-						<p>{{ post.description | strip_html | truncatewords:30 }}</p>
-					</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-	</div>
-</section>
-<!-- news end -->
+                        <!-- Send -->
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+</main>
+<!-- End #main -->
