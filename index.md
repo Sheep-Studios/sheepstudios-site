@@ -26,7 +26,7 @@ title: Home
                 <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                     <h3 data-aos="fade-up" class="aos-init aos-animate">Services</h3>
                     <p data-aos="fade-up" class="aos-init aos-animate">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        
                     </p>
 
                     <!-- Licensing -->
