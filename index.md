@@ -1,5 +1,6 @@
 ---
 layout: default
+description: We are Sheep Studios, an indie game development company. We offer high quality games for licensing as well as HTMl5 game publishing.
 title: Home
 ---
 
