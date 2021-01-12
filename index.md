@@ -21,12 +21,12 @@ title: Home
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-7 aos-init aos-animate" data-aos="fade-right">
-                    <img src="assets/img/about-img.jpg" class="img-fluid" alt="" />
+                    <img src="assets/img/services.png" class="img-fluid" alt="Sheep Studios Services" />
                 </div>
                 <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                     <h3 data-aos="fade-up" class="aos-init aos-animate">Services</h3>
                     <p data-aos="fade-up" class="aos-init aos-animate">
-                        
+
                     </p>
 
                     <!-- Licensing -->
@@ -45,7 +45,7 @@ title: Home
 
                     <!-- Game development -->
                     <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-network-chart"></i>
+                        <i class="bx bx-game"></i>
                         <h4>Game development</h4>
                         <p>We make cross-platform HTML5 and mobile games.</p>
                     </div>
@@ -56,7 +56,7 @@ title: Home
     <!-- End Services Section -->
 
     {% include our-games.html %}
-            
+
     <!-- Contact section start -->
     <section id="contact" class="contact">
         <div class="container">
