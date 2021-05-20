@@ -1,10 +1,10 @@
 ---
 layout: single
 title: Color Cross 2 (Private)
-permalink: /color-cross-playtest
+permalink: /color-cross-2-private
 ---
 
-<iframe src="https://sheepstudios.net/static/color-cross-2/game/armor-games/index.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="432px" width="768px" allowfullscreen></iframe>
+<iframe src="https://sheepstudios.net/static/color-cross-2/game/index.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="432px" width="768px" allowfullscreen></iframe>
 
 <br />
 
