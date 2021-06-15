@@ -1,4 +1,4 @@
-// Author:			Dytlief Moller
+﻿// Author:			Dytlief Moller
 // Project:			HTML5 only
 // Description:		Thank you for purchasing! Use or modify these 10 styles to your liking.
 
@@ -8,8 +8,8 @@ function Deg2Rad(_deg)
 	return _deg * (Math.PI / 180.0);
 }
 
-// Base for drawing the loadscreen
-function draw_loadscreen(_graphics, _width, _height, _total, _current, _loadingscreen, imageSource)
+// ------------------------------------------------------------------------------------------------------------------ custom 01
+function loadscreen_1(_graphics, _width, _height, _total, _current, _loadingscreen)
 {
 	// Load bar
     var barwidth = 415;
@@ -37,7 +37,7 @@ function draw_loadscreen(_graphics, _width, _height, _total, _current, _loadings
 
 	// Background image
     var imageBackground = new Image();
-	imageBackground.src = imageSource;
+    imageBackground.src = "https://i.ibb.co/W0C7mVp/fbc9b7f1-151a-4539-8869-15ebcb333ddf.png";
     var imgheight = 768;
     var imgwidth = 432;
     var fromtop = ( (_height - imgheight)/2 );
@@ -73,15 +73,4 @@ function draw_loadscreen(_graphics, _width, _height, _total, _current, _loadings
         _graphics.fillStyle = progress_bg;
         _graphics.fillRect(x, y, w, barheight);
 	}
-}
-
-// ------------------------------------------------------------------------------------------------------------------ LOADSCREENS
-function loadscreen_generic(_graphics, _width, _height, _total, _current, _loadingscreen)
-{
-	draw_loadscreen(_graphics, _width, _height, _total, _current, _loadingscreen, "https://sheepstudios.net/static/color-cross-2/preloader/loading-generic.png");
-}
-
-function loadscreen_armor_games(_graphics, _width, _height, _total, _current, _loadingscreen)
-{
-	draw_loadscreen(_graphics, _width, _height, _total, _current, _loadingscreen, "https://sheepstudios.net/static/color-cross-2/preloader/loading-armor-games.png");
 }
