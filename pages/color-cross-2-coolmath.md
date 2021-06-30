@@ -9,7 +9,7 @@ permalink: /color-cross-2-coolmath
 <br />
 
 ### Description
-Jimmy is back at it again in Color Cross 2! Once you hop, the environment swaps. Can you complete all the levels and collect the hidden stars?
+Jimmy is back at it again in Color Cross 2! Once you hop, the environment swaps. Can you complete all the levels and collect the hidden stars??
 
 ### Controls
 WASD or Arrow Keys
